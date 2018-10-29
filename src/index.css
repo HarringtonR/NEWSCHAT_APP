@@ -1,0 +1,306 @@
+* {
+  margin: 0 auto;
+  font-weight: 100;
+  font-family: helvetica;
+  max-width: 960px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 700px;
+  overflow: scroll;
+  width: 330px;
+  border-left: 1px solid #e6e6e6;
+
+}
+
+.MessageList {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 700px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.App {
+  font-weight: 100;
+}
+
+
+.sender {
+  opacity: .9;
+  padding: 15px 10px;
+  font-size: 15px;
+}
+
+.message {
+  color: white;
+  font-size: 15px;
+}
+
+span {
+  background: #2C303A;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.Title {
+  border-bottom: 1px solid #2C303A;
+}
+
+
+.roomlist {
+  text-align: center;
+  height: 550px;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.main {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 700px;
+}
+
+
+.list {
+  display: flex;
+  justify-content: center;
+}
+
+.list li {
+  padding: 5px;
+}
+
+.SendMessageForm {
+  text-align: center;
+  padding: 15px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  padding: 10px;
+  width: 250px;
+  border: none;
+}
+
+.news {
+  height: 680px;
+  width: 60%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  min-height: 800px;
+  padding-top: 20px;
+}
+
+.newstitle {
+  text-align: center;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.newsArticles {
+  background-color: white;
+}
+
+.newsFeedTitles {
+  padding: 10px;
+}
+
+.newsFeedTitles:hover {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.articleTitles {
+  font-weight: 500;
+  padding: 10px;
+}
+
+.articleDescriptions {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.formAlign {
+  display: flex;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.inputNameForm {
+  padding: 20px 40px;
+  width: 200px;
+  font-size: 15px;
+  border: 1px solid;
+}
+
+.inputNameSubmit {
+  border: none;
+  display: none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.room {
+  color: white;
+}
+
+.NewsFeed {
+  overflow: scroll;
+  height: 680px;
+}
+
+h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800;
+
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+  padding: 15px;
+  font-weight: 700;
+  color: white;
+  background-color: #2C303A;
+  border: none;
+  border-radius: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 800px;
+  border: none;
+}
+
+.chatTitle {
+  text-align: center;
+  padding: 10px;
+}
+
+.chatbox {
+  width: 40%;
+}
+
+.chatroom {
+  padding-bottom: 10px;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .news {
+    width: 100%;
+  }
+
+  .chatbox {
+    width: 100%;
+  }
+
+  .chatTitle {
+    margin-top: 50px;
+  }
+
+  .chatroom {
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .sender {
+    font-size: 12px;
+  }
+
+  span {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .SendMessageForm {
+    border-top: 1px solid #e6e6e6;
+  }
+
+  .roomlist {
+    height: 400px;
+  }
+
+  input {
+    margin: 0;
+  }
+
+  .inputs {
+    height: 20px;
+    padding: 0px;
+  }
+
+  .formAlign {
+    display: flex;
+    margin-top: 170px;
+  }
+
+  .messageBox {
+    border: none;
+  }
+
+}
+
+@media only screen and (max-width: 760px) {
+  p {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .sender {
+    font-size: 12px;
+  }
+
+  span {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+}
