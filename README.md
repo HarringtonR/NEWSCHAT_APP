@@ -25,10 +25,6 @@ News and Chat / NC will be a live stream of news and a live chat. On mobile they
 - [Scrimba tutorial used for parts of chat build](https://scrimba.com/playlist/pbNpTv)
 - [Personal Git used for a number of tests](https://github.com/HarringtonR/ChatKitBuild)
 
-## Wireframes
-
-![alt text](https://imgur.com/9FfZ9El.jpg)
-
 ## Priority Matrix
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matix.  
